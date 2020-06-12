@@ -10,11 +10,43 @@ namespace AlgorithmsCSharp
       var watch = System.Diagnostics.Stopwatch.StartNew();
       watch.Start();
 
-      int arg1 = 15;
-      string[] res = FizzBuzz(arg1);
+      int arg1 = -2147483648;
+      int res = Reverse(arg1);
 
       Console.WriteLine("Elapsed={0}", watch.Elapsed);
-      Console.WriteLine("Result: " + String.Join(",", res));
+      Console.WriteLine("Result: " + res);
+      // Console.WriteLine("Result: " + String.Join(",", res));
+    }
+
+    static int Reverse(int x)
+    {
+      if (!Int32.TryParse(x.ToString(), out _))
+      {
+        return 0;
+      }
+      bool isPositive = true;
+      if (x < 0)
+      {
+        isPositive = false;
+        x *= -1;
+      }
+      char[] arr = x.ToString().ToCharArray();
+      int length = arr.Length;
+      int length2 = length / 2;
+      int i = 0;
+      while (i < length2)
+      {
+        char a = arr[i];
+        arr[i] = arr[length - i - 1];
+        arr[length - i - 1] = a;
+        i++;
+      }
+      string res = String.Join("", arr);
+      if (!Int32.TryParse(res.ToString(), out _))
+      {
+        return 0;
+      }
+      return isPositive ? int.Parse(res) : int.Parse(res) * -1;
     }
 
     static string[] FizzBuzz(int n)
@@ -32,7 +64,8 @@ namespace AlgorithmsCSharp
         {
           r += "Buzz";
         }
-        if (r == "") {
+        if (r == "")
+        {
           r += s.ToString();
         }
         res[i] = r;
