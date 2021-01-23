@@ -1,24 +1,24 @@
 ﻿using System;
 
 
-namespace AlgorithmsCSharp
+namespace Algorithms
 {
   class Program
   {
     static void Main()
     {
-      var watch = System.Diagnostics.Stopwatch.StartNew();
-      watch.Start();
+      //var watch = System.Diagnostics.Stopwatch.StartNew();
+      //watch.Start();
 
-      int arg1 = -2147483648;
-      int res = Reverse(arg1);
+      //Tree<INode> arg1 = new Tree<INode>;
+      //int res = DeleteNode(arg1);
 
-      Console.WriteLine("Elapsed={0}", watch.Elapsed);
-      Console.WriteLine("Result: " + res);
+      //Console.WriteLine("Elapsed={0}", watch.Elapsed);
+      // Console.WriteLine("Result: " + res);
       // Console.WriteLine("Result: " + String.Join(",", res));
     }
 
-    static int Reverse(int x)
+    static int ReverseInteger(int x)
     {
       if (!Int32.TryParse(x.ToString(), out _))
       {
