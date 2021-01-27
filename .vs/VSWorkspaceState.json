@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Algorithms",
+    "\\tests"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\tests\\AlgorithmsTests.csproj",
   "PreviewInSolutionExplorer": false
 }
