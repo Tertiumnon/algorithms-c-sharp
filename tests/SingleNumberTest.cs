@@ -15,17 +15,11 @@ namespace AlgorithmsTests
         }
 
         [Test]
-        public void Test1()
+        [TestCase(1, new[]{ 2, 2, 1 })]
+        public void Test1(int exprectedResult, int[] nums)
         {
-            var result = _singleNumberSolution.SingleNumber(new[]{ 2, 2, 1 });
-            Assert.AreEqual(result, 1);
-        }
-
-        [Test]
-        public void Test2()
-        {
-            var result = _singleNumberSolution.SingleNumber(new[]{ 4,1,2,1,2 });
-            Assert.AreEqual(result, 4);
+            var result = _singleNumberSolution.SingleNumber(nums);
+            Assert.AreEqual(result, exprectedResult);
         }
     }
 }

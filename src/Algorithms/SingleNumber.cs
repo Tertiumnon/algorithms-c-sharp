@@ -1,5 +1,5 @@
+using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Algorithms
 {
@@ -7,19 +7,28 @@ namespace Algorithms
   {
     public int SingleNumber(int[] nums)
     {
-      Dictionary<int, bool> singleNums = new Dictionary<int, bool>();
-      foreach (int n in nums)
+      Array.Sort(nums);
+      int length = nums.Length - 1;
+      if (length > 1)
       {
-        if (singleNums.ContainsKey(n))
+        if (nums[0] != nums[1])
         {
-          singleNums.Remove(n);
+          return nums[0];
         }
-        else
+        else if (nums[length] != nums[length - 1])
         {
-          singleNums.Add(n, true);
+          return nums[length];
+        }
+        for (int i = 1; i < length; i++)
+        {
+          int current = nums[i];
+          if (nums[i - 1] != current && nums[i + 1] != current)
+          {
+            return current;
+          }
         }
       }
-      return singleNums.First().Key;
+      return nums[0];
     }
   }
 }
