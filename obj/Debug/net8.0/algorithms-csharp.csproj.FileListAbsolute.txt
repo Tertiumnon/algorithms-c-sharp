@@ -1,0 +1,6 @@
+D:\Repos\algorithms-csharp\obj\Debug\net8.0\algorithms-csharp.csproj.AssemblyReference.cache
+D:\Repos\algorithms-csharp\obj\Debug\net8.0\algorithms-csharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\algorithms-csharp\obj\Debug\net8.0\algorithms-csharp.AssemblyInfoInputs.cache
+D:\Repos\algorithms-csharp\obj\Debug\net8.0\algorithms-csharp.AssemblyInfo.cs
+D:\Repos\algorithms-csharp\obj\Debug\net8.0\algorithms-csharp.csproj.CoreCompileInputs.cache
+D:\Repos\algorithms-csharp\obj\Debug\net8.0\algorithms-csharp.sourcelink.json

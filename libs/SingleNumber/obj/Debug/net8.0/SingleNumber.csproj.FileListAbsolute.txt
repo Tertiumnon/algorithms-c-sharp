@@ -1,0 +1,12 @@
+D:\Repos\algorithms-csharp\libs\SingleNumber\bin\Debug\net8.0\SingleNumber.deps.json
+D:\Repos\algorithms-csharp\libs\SingleNumber\bin\Debug\net8.0\SingleNumber.dll
+D:\Repos\algorithms-csharp\libs\SingleNumber\bin\Debug\net8.0\SingleNumber.pdb
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\SingleNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\SingleNumber.AssemblyInfoInputs.cache
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\SingleNumber.AssemblyInfo.cs
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\SingleNumber.csproj.CoreCompileInputs.cache
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\SingleNumber.sourcelink.json
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\SingleNumber.dll
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\refint\SingleNumber.dll
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\SingleNumber.pdb
+D:\Repos\algorithms-csharp\libs\SingleNumber\obj\Debug\net8.0\ref\SingleNumber.dll
